@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFrag">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gameBoard"
+        android:layout_width="411dp"
+        android:layout_height="390dp"
+        android:background="@drawable/gameboard"
+        app:columnCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        app:rowCount="6">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="4"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="5"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="5"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="1"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="2"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="3"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="4"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="5"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="4"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="5"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="4"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="5"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="4"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingHorizontal="1dp"
+            android:paddingVertical="1dp"
+            android:src="@drawable/lavender"
+            app:layout_column="5"
+            app:layout_row="2" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
